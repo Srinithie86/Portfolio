@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://srinithi.dev/</loc>
-    <lastmod>2026-03-28</lastmod>
+    <loc>https://srinithiflutterapp.pages.dev/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://srinithi.dev/hire-flutter-developer.html</loc>
-    <lastmod>2026-03-28</lastmod>
+    <loc>https://srinithiflutterapp.pages.dev/flutter-developer-india.html</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://srinithi.dev/flutter-developer-india.html</loc>
-    <lastmod>2026-03-28</lastmod>
+    <loc>https://srinithiflutterapp.pages.dev/hire-flutter-developer.html</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://srinithi.dev/mobile-app-developer-tamil-nadu.html</loc>
-    <lastmod>2026-03-28</lastmod>
+    <loc>https://srinithiflutterapp.pages.dev/mobile-app-developer-tamil-nadu.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://srinithiflutterapp.pages.dev/blog-why-flutter-is-best-for-startups.html</loc>
     <priority>0.8</priority>
   </url>
 </urlset>

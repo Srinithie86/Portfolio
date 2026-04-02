@@ -202,7 +202,7 @@ class _AnimatedPortfolioPageState extends State<AnimatedPortfolioPage>
     ProjectModel(
       title: 'Chit Fund Expert',
       desc:
-          'Secure chit fund management with automated payment reconciliation and dashboards.\n\n• Automated SMS reminders & alerts\n• Operator analytics dashboard views\n• Digital receipts emission system',
+          'Secure chit fund management with automated payment reconciliation and dashboards.\n\n• Automated SMS reminders & alerts\n• Scalable operator analytics dashboard\n• Digital receipt management system',
       category: 'Mobile Apps',
       github: 'https://github.com/Srinithie86/CHITSOFT.git',
       screenshots: [
@@ -227,7 +227,7 @@ class _AnimatedPortfolioPageState extends State<AnimatedPortfolioPage>
     ProjectModel(
       title: 'Namma Ooru Cab',
       desc:
-          'A ride-hailing and driver booking platform with precise live route Sync navigation.\n\n• Live GPS route navigation & map sync\n• Automated fare math calculations\n• Emergency SOS & safety alerts',
+          'A ride-hailing and driver booking platform with precise real-time route navigation.\n\n• Real-time GPS tracking and navigation\n• Automated fare calculation system\n• Emergency SOS & safety alerts',
       screenshots: [
         'assets/namma_1.webp',
         'assets/namma_2.webp',
@@ -244,7 +244,7 @@ class _AnimatedPortfolioPageState extends State<AnimatedPortfolioPage>
     ProjectModel(
       title: 'Swift Logistics',
       desc:
-          'Real-time logistics tracking app with 40% faster delivery insights and routing.\n\n• Live driver & route tracking mesh\n• Route routing optimization dashboard\n• Instant shipment mesh manifestation views',
+          'I build scalable Flutter apps with real-time features like logistics tracking.\n\n• Real-time driver and route tracking\n• Optimized route management dashboard\n• Instant shipment status and tracking',
       category: 'Freelance',
       github: '',
       screenshots: ['assets/freelance.gif'], 
@@ -260,7 +260,7 @@ class _AnimatedPortfolioPageState extends State<AnimatedPortfolioPage>
     ProjectModel(
       title: 'Yuvathi – HPV Screening',
       desc:
-          'A women’s wellness platform focused on HPV screening with secure self-ordering kits.\n\n• Smooth checkout workflow kits\n• Information Diagnostic portal bounds\n• Secure user privacy & compliance',
+          'A women’s wellness platform focused on HPV screening with secure self-ordering kits.\n\n• Simplified checkout for ordering screening kits\n• Informative diagnostic portal for users\n• Secure user privacy & data compliance',
       screenshots: [
         'assets/yuvathi_1.webp',
         'assets/yuvathi_2.webp',
@@ -285,20 +285,20 @@ class _AnimatedPortfolioPageState extends State<AnimatedPortfolioPage>
 
     _floatingController = AnimationController(
       vsync: this,
-      duration: const Duration(seconds: 3),
+      duration: const Duration(seconds: 4),
     )..repeat(reverse: true);
 
     _iconController = AnimationController(
       vsync: this,
-      duration: const Duration(seconds: 25),
+      duration: const Duration(seconds: 40),
     )..repeat();
 
     _bgRotationController = AnimationController(
       vsync: this,
-      duration: const Duration(seconds: 60),
+      duration: const Duration(seconds: 90),
     )..repeat();
 
-    _heroTimer = Timer.periodic(const Duration(seconds: 4), (_) {
+    _heroTimer = Timer.periodic(const Duration(seconds: 6), (_) { // Slower transition for hero
       if (_heroController.hasClients) {
         final next = ((_heroController.page?.round() ?? 0) + 1) % 3;
         _heroController.animateToPage(
@@ -858,7 +858,7 @@ class _AnimatedPortfolioPageState extends State<AnimatedPortfolioPage>
             ),
             _outlineButton(
               'Download Resume (PDF)',
-              onTap: () => _openUrl('https://srinithi.dev/resume.pdf'),
+              onTap: () => _openUrl('assets/DOC-20250921-WA0000..pdf'),
             ),
           ],
         ),
@@ -1385,7 +1385,7 @@ class _AnimatedPortfolioPageState extends State<AnimatedPortfolioPage>
         Expanded(child: Container(height: 1, color: kDim)),
       ]);
 
-  Widget _sectionTitle(String normal, String accent) => RichText(
+  Widget _sectionTitle(String normal, String accent) => Semantics(header: true, child: RichText(
         text: TextSpan(children: [
           TextSpan(
               text: normal,
@@ -1405,7 +1405,7 @@ class _AnimatedPortfolioPageState extends State<AnimatedPortfolioPage>
                   letterSpacing: -1.5,
                   height: 1.1)),
         ]),
-      );
+      ));
 
   Widget _pill(String label, {bool highlight = false}) => Container(
         padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 5),
@@ -1423,9 +1423,9 @@ class _AnimatedPortfolioPageState extends State<AnimatedPortfolioPage>
       padding: EdgeInsets.symmetric(horizontal: isWide ? 80 : 24, vertical: 80),
       child: Column(
         children: [
-          _sectionLabel('Core Proficiency'),
+          _sectionLabel('Technological Stack'),
           const SizedBox(height: 16),
-          _sectionTitle('My Tech ', 'Universe'),
+          _sectionTitle('Core Technical ', 'Proficiency'),
           const SizedBox(height: 60),
           LayoutBuilder(
             builder: (context, constraints) {
@@ -1447,11 +1447,11 @@ class _AnimatedPortfolioPageState extends State<AnimatedPortfolioPage>
                         
                         // Top Skills Nodes (Row 1)
                         Positioned(top: 50, left: 100, child: _skillNodeIcon(FontAwesomeIcons.figma, Colors.pinkAccent)),
-                        Positioned(top: 50, left: 220, child: _skillNodeIcon(FontAwesomeIcons.react, Colors.cyanAccent)),
-                        Positioned(top: 50, left: 340, child: _skillNodeIcon(FontAwesomeIcons.copyright, Colors.blue)),
-                        Positioned(top: 50, left: 460, child: _skillNodeIcon(FontAwesomeIcons.nodeJs, Colors.cyanAccent)),
-                        Positioned(top: 50, left: 580, child: _skillNodeIcon(FontAwesomeIcons.js, Colors.amberAccent)),
-                        Positioned(top: 50, left: 700, child: _skillNodeIcon(FontAwesomeIcons.css3, Colors.blueAccent)),
+                        Positioned(top: 50, left: 220, child: _skillNodeIcon(FontAwesomeIcons.flutter, Colors.cyanAccent)),
+                        Positioned(top: 50, left: 340, child: _skillNodeIcon(Icons.code, Colors.blue)),
+                        Positioned(top: 50, left: 460, child: _skillNodeIcon(FontAwesomeIcons.database, Colors.cyanAccent)), // Firebase
+                        Positioned(top: 50, left: 580, child: _skillNodeIcon(FontAwesomeIcons.php, Colors.amberAccent)),
+                        Positioned(top: 50, left: 700, child: _skillNodeIcon(Icons.api_rounded, Colors.blueAccent)),
                         
                         // Top Skills Nodes (Row 2)
                         Positioned(top: 150, left: 180, child: _skillNodeIcon(FontAwesomeIcons.gitAlt, Colors.orangeAccent)),
@@ -1479,12 +1479,12 @@ class _AnimatedPortfolioPageState extends State<AnimatedPortfolioPage>
                                 colors: [Color(0xFF9B59B6), Color(0xFF8E44AD)],
                               ),
                             ),
-                            child: const Center(
-                              child: Text(
-                                'Σ', // Sigma or custom logo
-                                style: TextStyle(color: Colors.white, fontSize: 64, fontWeight: FontWeight.bold),
+                              child: const Center(
+                                child: Text(
+                                  'FLUTTER',
+                                  style: TextStyle(color: Colors.white, fontSize: 24, fontWeight: FontWeight.bold),
+                                ),
                               ),
-                            ),
                           ),
                         ),
 
@@ -2028,7 +2028,7 @@ class _AnimatedPortfolioPageState extends State<AnimatedPortfolioPage>
           const SizedBox(height: 48),
           _gradientButton('Say Hello on WhatsApp',
               icon: FontAwesomeIcons.whatsapp,
-              onTap: () => _openUrl('https://wa.me/919342551410')),
+              onTap: () => _openUrl('https://wa.me/918610273937')),
         ],
       ),
     );
@@ -2093,12 +2093,12 @@ class _AnimatedPortfolioPageState extends State<AnimatedPortfolioPage>
 
   Widget _processSection(bool isWide) {
     final steps = [
-      ("01", "UI/UX DESIGN", Icons.draw_rounded, "Crafting wireframes and visually gorgeous interfaces layouts guides."),
-      ("02", "STRATEGY", Icons.lightbulb_outline_rounded, "Planning deliverables, mapping architecture pipelines timelines safely."),
-      ("03", "ANALYSIS", Icons.analytics_rounded, "Monitoring metric flows, requirement analysis analytics dashboard."),
-      ("04", "DEVELOPMENT", Icons.code_rounded, "Developing secure scalable algorithms components structure modules."),
-      ("05", "TESTING", Icons.checklist_rtl_rounded, "Validating unit flows tests bug reconciliation dashboards accurately."),
-      ("06", "DEPLOYMENT & SUPPORT", Icons.rocket_launch_rounded, "Syncing live node pipelines maintenance maintenance downstream safely."),
+      ("01", "UI/UX DESIGN", Icons.draw_rounded, "Designing intuitive user interfaces and wireframes with a focus on user experience."),
+      ("02", "STRATEGY", Icons.lightbulb_outline_rounded, "Defining project requirements and technical architecture for robust applications."),
+      ("03", "ANALYSIS", Icons.analytics_rounded, "Analyzing business needs and requirements to ensure all project goals are met."),
+      ("04", "DEVELOPMENT", Icons.code_rounded, "Writing clean, scalable Flutter code using modern architectural patterns."),
+      ("05", "TESTING", Icons.checklist_rtl_rounded, "Rigorous testing and bug fixes to ensure a smooth, crash-free user experience."),
+      ("06", "DEPLOYMENT & SUPPORT", Icons.rocket_launch_rounded, "Deploying to App Store & Play Store with ongoing maintenance and support."),
     ];
 
     return Container(
@@ -2204,10 +2204,10 @@ class _AnimatedPortfolioPageState extends State<AnimatedPortfolioPage>
             spacing: 16,
             runSpacing: 16,
             children: [
-              _socialButton(Icons.code, 'https://github.com/yourusername'),
-              _socialButton(Icons.business, 'https://linkedin.com/'),
+              _socialButton(Icons.code, 'https://github.com/Srinithie86'),
+              _socialButton(Icons.business, 'https://linkedin.com/in/yourprofile'), // Replace with actual LinkedIn if known
               _socialButton(Icons.email, 'mailto:srinithie86@gmail.com'),
-              _socialButton(Icons.phone_android, 'tel:+1234567890'),
+              _socialButton(Icons.phone_android, 'tel:+918610273937'),
             ],
           ),
           const SizedBox(height: 16),
@@ -2216,9 +2216,9 @@ class _AnimatedPortfolioPageState extends State<AnimatedPortfolioPage>
             spacing: 24,
             runSpacing: 12,
             children: [
-              _footerLink('Hire Flutter Developer', 'https://srinithi.dev/hire-flutter-developer.html'),
-              _footerLink('Flutter Developer India', 'https://srinithi.dev/flutter-developer-india.html'),
-              _footerLink('Mobile App Developer Tamil Nadu', 'https://srinithi.dev/mobile-app-developer-tamil-nadu.html'),
+              _footerLink('Hire Flutter Developer', 'https://srinithiflutterapp.pages.dev/hire-flutter-developer.html'),
+              _footerLink('Flutter Developer India', 'https://srinithiflutterapp.pages.dev/flutter-developer-india.html'),
+              _footerLink('Mobile App Developer Tamil Nadu', 'https://srinithiflutterapp.pages.dev/mobile-app-developer-tamil-nadu.html'),
             ],
           ),
           const SizedBox(height: 24),
@@ -3576,10 +3576,10 @@ class ThreeDBackgroundPainter extends CustomPainter {
       ..style = PaintingStyle.fill;
 
     final random = math.Random(42);
-    for (int i = 0; i < 30; i++) {
+    for (int i = 0; i < 15; i++) { // Optimization: Reduced particle count from 30 to 15
       final depth = random.nextDouble();
       final xBase = random.nextDouble() * size.width;
-      final yBase = (random.nextDouble() * size.height * 3) - scrollOffset * (0.2 + depth * 0.5);
+      final yBase = (random.nextDouble() * size.height * 3) - scrollOffset * (0.1 + depth * 0.4);
       
       final orbitX = math.sin(rotation * 2 * math.pi + i) * 50 * depth;
       final orbitY = math.cos(rotation * 2 * math.pi + i) * 50 * depth;
@@ -3967,7 +3967,7 @@ class _OrbitAnimationViewState extends State<_OrbitAnimationView>
   @override
   void initState() {
     super.initState();
-    _controller = AnimationController(vsync: this, duration: const Duration(seconds: 12))
+    _controller = AnimationController(vsync: this, duration: const Duration(seconds: 30)) // Much slower orbit
       ..repeat();
   }
 
