@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://srinithi.dev/sitemap.xml
+
+Sitemap: https://srinithiflutterapp.pages.dev/sitemap.xml
