@@ -106,7 +106,7 @@ class _AnimatedPortfolioPageState extends State<AnimatedPortfolioPage>
   late AnimationController _bgRotationController; // New for 3D BG
   late Timer _heroTimer;
   final PageController _heroController = PageController();
-  // late VideoPlayerController _profileVideoController;
+  late VideoPlayerController _profileVideoController;
   final List<PageController> _projectControllers = [];
   int _selectedCategory = 0;
 
@@ -328,16 +328,16 @@ class _AnimatedPortfolioPageState extends State<AnimatedPortfolioPage>
       });
     }
 
-    // _profileVideoController =
-    //     VideoPlayerController.asset('assets/critical_thinking.mp4')
-    //       ..initialize().then((_) {
-    //         _profileVideoController.setVolume(0);
-    //         _profileVideoController.setLooping(true);
-    //         _profileVideoController.play();
-    //         setState(() {}); // World-class refresh
-    //       }).catchError((e) {
-    //         debugPrint("World-class Video Error: $e");
-    //       });
+    _profileVideoController =
+        VideoPlayerController.asset('assets/critical_thinking.mp4')
+          ..initialize().then((_) {
+            _profileVideoController.setVolume(0);
+            _profileVideoController.setLooping(true);
+            _profileVideoController.play();
+            setState(() {}); // World-class refresh
+          }).catchError((e) {
+            debugPrint("World-class Video Error: $e");
+          });
 
     _scrollController.addListener(() {
       _scrollNotifier.value = _scrollController.offset;
@@ -352,7 +352,7 @@ class _AnimatedPortfolioPageState extends State<AnimatedPortfolioPage>
     _scrollNotifier.dispose();
     _heroTimer.cancel();
     _heroController.dispose();
-    // _profileVideoController.dispose();
+    _profileVideoController.dispose();
     for (final c in _projectControllers) {
       c.dispose();
     }
@@ -720,10 +720,19 @@ class _AnimatedPortfolioPageState extends State<AnimatedPortfolioPage>
       child: ClipRRect(
         borderRadius: BorderRadius.circular(radius),
         child: SizedBox.expand(
-          child: Image.asset(
-            'assets/profile.jpg',
-            fit: BoxFit.cover,
-          ),
+          child: _profileVideoController.value.isInitialized
+              ? FittedBox(
+                  fit: BoxFit.cover,
+                  child: SizedBox(
+                    width: _profileVideoController.value.size.width,
+                    height: _profileVideoController.value.size.height,
+                    child: VideoPlayer(_profileVideoController),
+                  ),
+                )
+              : Image.asset(
+                  'assets/profile.jpg',
+                  fit: BoxFit.cover,
+                ),
         ),
       ),
     );
