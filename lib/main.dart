@@ -824,7 +824,7 @@ class _AnimatedPortfolioPageState extends State<AnimatedPortfolioPage>
         ),
         const SizedBox(height: 24),
         Text(
-          '3+ Years • 15+ Apps • 500+ Users',
+          '2+ Years • 15+ Apps • 500+ Users',
           style: GoogleFonts.jetBrainsMono(
             color: kSky,
             fontSize: 18,
@@ -1217,7 +1217,7 @@ class _AnimatedPortfolioPageState extends State<AnimatedPortfolioPage>
           ),
           const SizedBox(height: 32),
           Text(
-              "A self-taught Mobile App developer, functioning in the industry for 3+ years now. "
+              "A self-taught Mobile App developer, functioning in the industry for 2+ years now. "
               "I make meaningful and delightful digital products that create an equilibrium "
               "between user needs and business goals.",
               style: GoogleFonts.poppins(
@@ -2020,7 +2020,7 @@ class _AnimatedPortfolioPageState extends State<AnimatedPortfolioPage>
           _sectionTitle('Turn your idea into a ', 'Real Product'),
           const SizedBox(height: 24),
           Text(
-            'Flutter Developer with 3+ years experience building scalable mobile apps. 15+ apps delivered. Available for immediate joining.',
+            'Flutter Developer with 2+ years experience building scalable mobile apps. 15+ apps delivered. Available for immediate joining.',
             textAlign: TextAlign.center,
             style: GoogleFonts.poppins(color: Colors.white70, fontSize: 18),
           ),

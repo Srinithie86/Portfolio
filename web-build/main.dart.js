@@ -70593,7 +70593,7 @@ k=a?B.I:B.u
 i=A.as("Hi, I\u2019m Srinithi \u2014",o,o,A.b2().$4$color$fontSize$fontWeight$height(B.f,a?56:38,B.bf,1.1),o)
 s=A.as("Flutter Developer in India",o,o,A.b2().$4$color$fontSize$fontWeight$height(B.f,a?56:38,B.bf,1.1),o)
 k=A.bo(A.c([i,s,A.as("building scalable apps",o,o,A.b2().$4$color$fontSize$fontWeight$height(B.j,a?56:38,B.bf,1.1),o)],m),k,B.p,B.t)
-i=A.as("3+ Years \u2022 15+ Apps \u2022 500+ Users",o,o,A.dA().$4$color$fontSize$fontWeight$letterSpacing(B.j,18,B.a5,1.5),o)
+i=A.as("2+ Years \u2022 15+ Apps \u2022 500+ Users",o,o,A.dA().$4$color$fontSize$fontWeight$letterSpacing(B.j,18,B.a5,1.5),o)
 s=a?B.aE:B.aX
 s=A.as("Helping businesses turn ideas into production-ready apps in weeks.",o,o,A.b2().$2$color$fontSize(B.eS,16),s)
 r=A.hH(B.aM,A.c([p.J6("View My Work",!0,new A.a7p(p)),p.Ka("Let's Talk",new A.a7q(p)),p.Ka("Download Resume (PDF)",new A.a7r(p))],m),16,16)
@@ -70628,7 +70628,7 @@ return A.mg(A.hx(A.iu(B.M,A.c([l,j,A.qJ(B.M,A.ahG(24,A.a05(),380,A.c([k[0].e[2]]
 z0(a,b){var s=null,r=A.als(10,10),q=A.V(20,B.f.m()>>>16&255,B.f.m()>>>8&255,B.f.m()&255),p=A.dC(B.bw,1)
 return new A.Du(A.ake(A.aA(s,A.es(a,b,s,20),B.k,s,s,new A.aO(q,s,p,s,s,s,B.ay),s,44,s,s,s,s,44),r),s)},
 H4(){var s=this,r=null,q=s.kW(),p=A.as("Freelance Flutter Developer in India.|",r,r,A.b2().$5$color$fontSize$fontWeight$height$letterSpacing(B.f,32,B.b2,1.2,-0.5),r),o=A.b2().$2$color$fontSize(B.C,16),n=t.p
-return A.aA(r,A.bo(A.c([p,B.ha,A.xm(r,r,r,B.d3,r,r,!0,r,A.jG(A.c([B.Np,A.jG(r,r,r,r,r,r,r,r,r,A.nU(r,r,B.j,r,r,r,r,r,r,r,r,r,r,r,B.a5,r,r,!0,r,r,r,r,r,r,r,r),"Professional Freelancer in Tamil Nadu,")],t.VO),r,r,r,r,r,r,r,r,o,r),B.aE,r,r,B.bo,B.bn),B.d0,A.as("A self-taught Mobile App developer, functioning in the industry for 3+ years now. I make meaningful and delightful digital products that create an equilibrium between user needs and business goals.",r,r,A.b2().$3$color$fontSize$height(B.C,16,1.8),r),B.h6,A.hH(B.aM,A.c([s.pz("Flutter",!0),s.pz("Dart",!0),s.pz("Firebase",!0),s.py("Figma"),s.py("REST APIs"),s.py("BLoC"),s.py("Riverpod"),s.pz("PHP",!0),s.py("Git")],n),6,6)],n),B.I,B.p,B.t),B.k,r,r,q,r,r,r,B.Cx,r,r,r)},
+return A.aA(r,A.bo(A.c([p,B.ha,A.xm(r,r,r,B.d3,r,r,!0,r,A.jG(A.c([B.Np,A.jG(r,r,r,r,r,r,r,r,r,A.nU(r,r,B.j,r,r,r,r,r,r,r,r,r,r,r,B.a5,r,r,!0,r,r,r,r,r,r,r,r),"Professional Freelancer in Tamil Nadu,")],t.VO),r,r,r,r,r,r,r,r,o,r),B.aE,r,r,B.bo,B.bn),B.d0,A.as("A self-taught Mobile App developer, functioning in the industry for 2+ years now. I make meaningful and delightful digital products that create an equilibrium between user needs and business goals.",r,r,A.b2().$3$color$fontSize$height(B.C,16,1.8),r),B.h6,A.hH(B.aM,A.c([s.pz("Flutter",!0),s.pz("Dart",!0),s.pz("Firebase",!0),s.py("Figma"),s.py("REST APIs"),s.py("BLoC"),s.py("Riverpod"),s.pz("PHP",!0),s.py("Git")],n),6,6)],n),B.I,B.p,B.t),B.k,r,r,q,r,r,r,B.Cx,r,r,r)},
 LF(){var s=this,r=null,q=s.kW()
 return A.aA(r,A.bo(A.c([A.as("Proficiency",r,r,A.dA().$2$color$fontSize(B.aS,9).na(2),r),B.al,s.mS("Flutter",0.92,B.j),s.mS("Firebase",0.85,B.j),s.mS("PHP",0.82,B.j),s.mS("UI Design",0.8,B.j),s.mS("REST APIs",0.88,B.j),s.mS("Figma",0.75,B.j)],t.p),B.I,B.p,B.t),B.k,r,r,q,r,r,r,B.bT,r,r,r)},
 mS(a,b,c){var s=null,r=A.hx(A.as(a,s,s,A.dA().$2$color$fontSize(B.aS,10),s),s,70),q=A.bJ(2)
@@ -70691,7 +70691,7 @@ o=A.V(38,p.m()>>>16&255,p.m()>>>8&255,p.m()&255)
 n=t.p
 return A.aA(m,A.bo(A.c([r,B.h5,q,B.al,A.bW(A.c([A.aA(m,A.mg(A.as(a.d,m,m,A.dA().$2$color$fontSize(p,11),m),m,m),B.k,m,m,new A.aO(o,m,m,m,m,m,B.ay),m,32,m,m,m,m,32),B.Mz,A.bo(A.c([A.as(a.b,m,m,A.b2().$5$color$fontSize$fontWeight$height$letterSpacing(B.c9,12,B.aA,m,m),m),A.as(a.c,m,m,A.dA().$2$color$fontSize(B.aS,9),m)],n),B.I,B.p,B.t)],n),B.u,B.p,B.t)],n),B.I,B.p,B.t),B.k,m,m,l,m,m,m,B.bT,m,m,m)},
 YH(a){var s=this,r=null,q=a?80:24
-return A.aA(r,A.bo(A.c([s.l1("Contact"),B.al,s.l2("Turn your idea into a ","Real Product"),B.bY,A.as("Flutter Developer with 3+ years experience building scalable mobile apps. 15+ apps delivered. Available for immediate joining.",r,r,A.b2().$2$color$fontSize(B.C,18),B.aX),B.h7,s.a_E("Say Hello on WhatsApp",B.m_,new A.a7m(s))],t.p),B.u,B.p,B.t),B.k,r,r,r,r,r,r,new A.al(q,80,q,80),r,r,1/0)},
+return A.aA(r,A.bo(A.c([s.l1("Contact"),B.al,s.l2("Turn your idea into a ","Real Product"),B.bY,A.as("Flutter Developer with 2+ years experience building scalable mobile apps. 15+ apps delivered. Available for immediate joining.",r,r,A.b2().$2$color$fontSize(B.C,18),B.aX),B.h7,s.a_E("Say Hello on WhatsApp",B.m_,new A.a7m(s))],t.p),B.u,B.p,B.t),B.k,r,r,r,r,r,r,new A.al(q,80,q,80),r,r,1/0)},
 mB(a,b,c){var s=null,r=A.V(8,B.f.m()>>>16&255,B.f.m()>>>8&255,B.f.m()&255),q=A.bJ(24),p=A.dC(B.bw,1)
 return A.aA(s,A.bo(A.c([A.es(c,B.j,s,32),B.h6,A.as(a,s,s,A.b2().$3$color$fontSize$fontWeight(B.f,20,B.a5),s),B.aD,A.as(b,s,s,A.b2().$2$color$fontSize(B.C,14),s)],t.p),B.I,B.p,B.t),B.k,s,s,new A.aO(r,s,p,q,s,s,B.y),s,s,s,B.Cz,s,s,s)},
 a3F(a){var s=null,r=A.c([B.KL,B.KI,B.KJ,B.KH,B.KK,B.KG],t.F_),q=a?80:24,p=A.as("My Development Process",s,s,A.ajk().$3$color$fontSize$fontWeight(B.f,a?42:32,B.bf),s),o=A.as("A structured lifecycle that translates wild ideas into highly usable apps.",s,s,A.b2().$2$color$fontSize(B.bQ,16),B.aX),n=t.am
