@@ -12,7 +12,7 @@ dependencies:
     sdk: flutter
 
   # For icon sets (like GitHub, LinkedIn icons)
-  font_awesome_flutter: ^10.4.0
+  font_awesome_flutter: ^11.0.0
 
   # To open links (resume, GitHub, LinkedIn)
   url_launcher: ^6.3.2
@@ -29,3 +29,26 @@ flutter:
 
   assets:
     - assets/
+    - assets/truebroker_1.png
+    - assets/truebroker_2.png
+    - assets/truebroker_3.png
+    - assets/smart_finserv_1.jpg
+    - assets/smart_finserv_2.jpg
+    - assets/namma_1.webp
+    - assets/namma_2.webp
+    - assets/namma_3.webp
+    - assets/namma_4.webp
+    - assets/yuvathi_1.webp
+    - assets/yuvathi_2.webp
+    - assets/yuvathi_3.webp
+    - assets/yuvathi_4.webp
+    - assets/total_erp_1.png
+    - assets/total_erp_2.png
+    - assets/total_erp_3.png
+    - assets/total_erp_4.jpg
+    - assets/project1.jpg
+    - assets/project2.jpg
+    - assets/profile.jpg
+    - assets/profile_cutout.png
+    - assets/hero_clean.png
+    - assets/hero_clean_transparent.png
